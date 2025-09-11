@@ -2,6 +2,7 @@ import React from 'react';
 import HotelIcon from '@material-ui/icons/Hotel';
 import BusinessIcon from '@material-ui/icons/Business';
 import VolumeUpIcon from '@material-ui/icons/VolumeUp';
+import DeliveryIcon from '@material-ui/icons/LocalShipping';
 import WebIcon from '@material-ui/icons/Web';
 import BuildIcon from '@material-ui/icons/Build';
 import RecentActorsIcon from '@material-ui/icons/RecentActors';
@@ -189,8 +190,10 @@ const settings = {
       // {name: "representatives", visible: true}, 
       {name: "arrangement", visible: true}, 
       // {name: "vouchers", visible: true}, 
+      {name: "messeshop", visible: true}, 
+      {name: "parking", visible: true}, 
       // {name: "delivery", visible: true}, 
-      // {name: "technicalguidelines", visible: true}, 
+      {name: "technicalguidelines", visible: true}, 
       // {name: "party", visible: true}, 
     ]},
 
@@ -300,6 +303,18 @@ const settings = {
                       check: "/checks/representatives",
                       edit: "/representatives",
                       icon : BuildIcon
+                    },
+                    {
+                      label: "messeshop",
+                      icon: BuildIcon,
+                       edit: "/messeshop",
+                      // check: true
+                    },
+                    {
+                      label: "parking",
+                      icon: DeliveryIcon,
+                       edit: "/parking",
+                      // check: true
                     },
                     {
                       label: "promo",
