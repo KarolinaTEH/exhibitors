@@ -51,6 +51,8 @@ const resources =  [
   <Resource key="posts" name="posts" list={PostList} edit={PostEdit} create={PostCreate} />,
   <Resource key="vips" name="vips" list={VipList} icon={VipIcon}  />,
   <Resource key="delivery" name="delivery" icon={DeliveryIcon}/>,
+  <Resource key="messeshop" name="messeshop" icon={PurchaseIcon}/>,
+  <Resource key="parking" name="parking" icon={DeliveryIcon}/>,
   <Resource key="technicalguidelines" name="technicalguidelines" icon={TechnicalGuidelinesIcon}/>,
   <Resource key="speaking" name="speaking" icon={SpeakingIcon}/>,
 

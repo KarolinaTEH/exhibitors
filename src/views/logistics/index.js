@@ -58,7 +58,7 @@ const Logistics = () => {
             </Box> */}
             <Box className={classes.videoContainer}>
               <img
-                src="https://res.cloudinary.com/eventjuicer/image/upload/v1752142198/TimelineCycle_nisb4t.png"
+                src="https://res.cloudinary.com/eventjuicer/image/upload/v1757581060/ExpoSuccessPath_dmjeil.png"
                 alt={translate('timeline.introvideo.title')}
                 className={classes.iframe} 
               />
