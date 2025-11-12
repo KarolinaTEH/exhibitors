@@ -189,7 +189,7 @@ const settings = {
       // {name: "representatives", visible: true}, 
       {name: "arrangement", visible: true}, 
       // {name: "vouchers", visible: true}, 
-      // {name: "delivery", visible: true}, 
+      {name: "delivery", visible: true}, 
       // {name: "technicalguidelines", visible: true}, 
       // {name: "party", visible: true}, 
     ]},
